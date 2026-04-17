@@ -11,7 +11,7 @@ Wasifa Hossain - 101594842
 | Member | Vulnerability Found | Branch Name |
 |--------|-------------------|-------------|
 | Sanzida Islam | No HTTPS on api.0x10.cloud| sanzida-feature |
-| _______ | _______ | _______ |
+| Wasifa Hossain | Server information exposed → nginx/1.18.0 | wasifa-feature |
 | _______ | _______ | _______ |
 
 ## Videos
