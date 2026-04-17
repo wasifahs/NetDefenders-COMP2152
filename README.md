@@ -1,14 +1,16 @@
 # COMP2152 — Term Project: CTF Bug Bounty
 
 ## Team Name
-<!-- Replace with your team name -->
-Team _______
+NetDefenders-COMP2152
 
 ## Team Members
+Sanzida Islam - 101564719
+Rezarta Marku - 101402390
+Wasifa Hossain - 101594842
 
 | Member | Vulnerability Found | Branch Name |
 |--------|-------------------|-------------|
-| _______ | _______ | _______ |
+| Sanzida Islam | No HTTPS on api.0x10.cloud| sanzida-feature |
 | _______ | _______ | _______ |
 | _______ | _______ | _______ |
 
@@ -19,6 +21,19 @@ Each team member records a short video (max 3 minutes) explaining their vulnerab
 - Member 1: https://youtube.com/watch?v=_______
 - Member 2: https://youtube.com/watch?v=_______
 - Member 3: https://youtube.com/watch?v=_______
+
+## Vulnerability Report (Sanzida Islam)
+
+### Title:
+No HTTPS on api.0x10.cloud
+
+### Description:
+The website allows communication over HTTP instead of HTTPS. This means data transmitted between the user and the server is not encrypted. An attacker can intercept sensitive information such as login credentials using a man-in-the-middle (MITM) attack.
+
+### Proof:
+Final URL: http://api.0x10.cloud
+[!] VULNERABILITY: Site does NOT use HTTPS
+→ Data can be intercepted (MITM attack)
 
 ## Target
 
